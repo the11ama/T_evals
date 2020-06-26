@@ -10,15 +10,15 @@ function whatIsIt(x) {
 whatisit(a);
 
 
-function addThemUp() {
-    let y = 0;
+function multiply() {
+    let y = 1;
     for (let i = 0; i < arguments.length; i++) {
-        y += arguments[i];
+        y *= arguments[i];
     }
     return y;
 }
 
-addThemUp(a, b, c);
+multiply(a, b, c);
 
 
 function addUpArray(x) {
